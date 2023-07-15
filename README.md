@@ -30,7 +30,9 @@
 
 # 📖 Budget app <a name="about-project"></a>
 
-**Hello rails app** is made with the intention of practice my coding habilities by using react and ruby on rails at the same time.
+**Hello rails app** is a react/rails app that can salute the user in 5 different languages. It is composed of two repositories, this is the back-end repo where you can find all the configurations we made to set up and deploy the API endpoint. In order to get this project working on your computer, you only need to download the front-end repo. Here is the link:
+
+[Front-end repo](https://github.com/luis-pomare/hello-rails-react-frontend)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -180,7 +182,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/luis-pomare/hello-rails-react/issues).
+Feel free to check the [issues page](https://github.com/luis-pomare/hello-rails-react-backend/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,3 +203,4 @@ I would like to thank all the microverse staff that gave us the bases for the pr
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
