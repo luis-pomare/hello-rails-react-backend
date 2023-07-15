@@ -2,6 +2,7 @@ class GreetingsController < ApplicationController
   def greetings_endpoint
     greetings = Greeting.all
     @greeting = greetings.sample
+    response.headers['Access-Control-Allow-Origin'] = '*'
     render json: @greeting
   end
 
