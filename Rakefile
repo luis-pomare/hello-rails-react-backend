@@ -4,3 +4,9 @@
 require_relative "config/application"
 
 Rails.application.load_tasks
+
+namespace :assets do
+  task :precompile do
+    # Your task definition here
+  end
+end
