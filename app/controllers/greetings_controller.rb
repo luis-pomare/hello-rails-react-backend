@@ -4,4 +4,14 @@ class GreetingsController < ApplicationController
     @greeting = greetings.sample
     render json: @greeting
   end
+
+  def create
+    greeting = Greeting.new(greeting: params[:greeting])
+
+    if greeting.save
+      render json: greeting, status: :created
+    else
+      render json: greeting.errors, status: :unprocessable_entity
+    end
+  end
 end
