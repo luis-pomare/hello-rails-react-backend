@@ -6,6 +6,5 @@ require_relative "config/application"
 Rails.application.load_tasks
 
 task 'assets:precompile' do
-  Rake::Task['assets:environment'].invoke
-  Rake::Task['assets:precompile:nondigest'].invoke
+  # Dummy task, no action required
 end
