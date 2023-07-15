@@ -81,6 +81,5 @@ test:
 #
 production:
   <<: *default
-  database: hello_rails_react_backend_production
-  username: hello_rails_react_backend
-  password: <%= ENV["HELLO_RAILS_REACT_BACKEND_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
